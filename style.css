@@ -48,3 +48,24 @@ button:hover {
   color: #555;
   text-align: center;
 }
+
+.lottery-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#drawBtn {
+  font-size: 1.5em;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#animation {
+  width: 300px;
+  max-width: 90%;
+  margin-bottom: 20px;
+}
